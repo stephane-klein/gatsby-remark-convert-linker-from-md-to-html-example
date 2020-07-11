@@ -8,6 +8,13 @@ module.exports = {
                 ignore: ['/src/**']
             }
         },
-        'gatsby-transformer-remark'
+        {
+            resolve: 'gatsby-transformer-remark',
+            options: {
+                plugins: [
+                    'gatsby-remark-relative-linker',
+                ],
+            }
+        }
     ]
 };

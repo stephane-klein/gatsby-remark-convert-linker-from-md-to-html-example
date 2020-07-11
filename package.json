@@ -6,10 +6,11 @@
     "gatsby-plugin-manifest": "2.4.1",
     "gatsby-source-filesystem": "2.3.0",
     "gatsby-transformer-remark": "2.8.4",
-    "react-markdown": "4.3.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-helmet": "6.0.0"
+    "react-helmet": "6.0.0",
+    "react-markdown": "4.3.1",
+    "unist-util-visit": "2.0.3"
   },
   "scripts": {
     "build": "gatsby build",
